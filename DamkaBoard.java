@@ -10,7 +10,7 @@ public class DamkaBoard {
 
         while (i < n) {
             j = 0;
-            if (i % 2 != 0) {
+            if (i % 2 == 0) {
                     System.out.print(" ");
             }
             while (j < n) {
