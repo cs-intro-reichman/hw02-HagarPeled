@@ -14,7 +14,9 @@ for (int n = length - 1; n >= 0; n--) {
 }
 
 System.out.println(reversed);
-System.out.println("The middle character is "+ word.charAt((length/2)-1));
+int middleindex = length / 2;
+char middlechar = word.charAt(middleindex);
+System.out.println("The middle character is "+ middlechar);
 
 	}
 }
