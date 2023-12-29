@@ -27,10 +27,11 @@ public class OneOfEachStats {
             int totalchildren = 0;
 
             do {
-                if (generator.nextDouble() < 0.5) {
+            	 double rnd = generator.nextDouble();
+                if (rnd < 0.5) {
                     boycount++;
                     totalchildren++;
-                } else if (generator.nextDouble() > 0.5) {
+                } else if (rnd > 0.5) {
                     girlcount++;
                     totalchildren++;
                 }
